@@ -14,7 +14,7 @@ class _LayoutTasbeehDrawerState extends State<LayoutTasbeehDrawer> {
   Widget build(BuildContext context) {
     return Column(
       children: [
-        Image.asset('assets/dua/mehrab.PNG',
+        Image.asset('assets/images/dua/mehrab.png',
         ),
         Container(
           margin: EdgeInsets.only(top: Get.height/10),
@@ -38,7 +38,7 @@ class _LayoutTasbeehDrawerState extends State<LayoutTasbeehDrawer> {
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
-                                Image.asset('assets/dua/handRaised.png',
+                                Image.asset('assets/images/dua/handRaised.png',
                                   height: Get.width/7.2,
                                 ),
                                 SizedBox(
@@ -98,7 +98,7 @@ class _LayoutTasbeehDrawerState extends State<LayoutTasbeehDrawer> {
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              Image.asset('assets/rate.png',
+                              Image.asset('assets/images/rate.png',
                                 color: Colors.white,
                                 height: Get.width/9.2,
                               ),
@@ -126,7 +126,7 @@ class _LayoutTasbeehDrawerState extends State<LayoutTasbeehDrawer> {
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
-                              Image.asset('assets/more.png',
+                              Image.asset('assets/images/more.png',
                                 color: Colors.white,
                                 height: Get.width/9.2,
                               ),

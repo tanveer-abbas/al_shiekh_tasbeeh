@@ -60,7 +60,7 @@ class _HomepageState extends State<Homepage> {
           decoration: BoxDecoration(
             image: DecorationImage(
                 fit: BoxFit.fill,
-                image: AssetImage('assets/duabackground.png')
+                image: AssetImage('assets/images/duabackground.png')
             ),
           ),
           child: Column(
@@ -85,7 +85,7 @@ class _HomepageState extends State<Homepage> {
                               ),
                               child: Container(
                                 margin: EdgeInsets.all(7),
-                                child: Image.asset('assets/dua/handRaised.png',
+                                child: Image.asset('assets/images/dua/handRaised.png',
                                 ),
                               ),
                             ),
@@ -138,7 +138,7 @@ class _HomepageState extends State<Homepage> {
                           ),
                         ],
                       ),
-                      Image(image: AssetImage("assets/dua/dua1.png"),
+                      Image(image: AssetImage("assets/images/dua/dua1.png"),
                         height: 180,
                         width: 180,
                         color: Color(0xff033f1d),
@@ -160,7 +160,7 @@ class _HomepageState extends State<Homepage> {
                         decoration: BoxDecoration(
                             image: DecorationImage(
                                 fit: BoxFit.fill,
-                                image: AssetImage('assets/counter.png')
+                                image: AssetImage('assets/images/counter.png')
                             )
                         ),
                         child: Expanded(

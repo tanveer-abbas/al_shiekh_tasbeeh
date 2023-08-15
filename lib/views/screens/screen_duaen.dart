@@ -64,17 +64,17 @@ class _ScreenDuaenState extends State<ScreenDuaen> {
                     physics: BouncingScrollPhysics(parent: AlwaysScrollableScrollPhysics()),
                     children: [
                       _buildTasbeehContents(
-                        'assets/dua/dua1.png', 'Subhanallah',),
+                        'assets/images/dua/dua1.png', 'Subhanallah',),
                       _buildTasbeehContents(
-                        'assets/dua/dua2.png', 'Alhamdulillah', ),
+                        'assets//images/dua/dua2.png', 'Alhamdulillah', ),
                       _buildTasbeehContents(
-                        'assets/dua/dua3.png', 'Allahu Akber',),
+                        'assets//images/dua/dua3.png', 'Allahu Akber',),
                       _buildTasbeehContents(
-                        'assets/dua/dua4.png', 'Astaghfirullah', ),
+                        'assets//images/dua/dua4.png', 'Astaghfirullah', ),
                       _buildTasbeehContents(
-                        'assets/dua/dua5.png', 'Li illah illalah',),
+                        'assets//images/dua/dua5.png', 'Li illah illalah',),
                       _buildTasbeehContents(
-                        'assets/dua/dua6.png', 'La hawla wallah....', ),
+                        'assets//images/dua/dua6.png', 'La hawla wallah....', ),
                     ],
 
                   ),
